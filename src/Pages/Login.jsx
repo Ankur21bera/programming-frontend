@@ -3,7 +3,8 @@ import { Modal, ModalBody, ModalFooter, ModalHeader } from "flowbite-react";
 import { Link, useNavigate } from "react-router-dom";
 import { toast } from "react-hot-toast";
 import axios from "axios";
-import { AppContext } from "../context/AppContext";
+import { AppContext } from "../Context/Appcontext";
+
 
 const Login = () => {
   const [mode, setMode] = useState("Sign Up");
