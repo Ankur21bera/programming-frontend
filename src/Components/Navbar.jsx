@@ -1,7 +1,6 @@
-import React, { useState } from 'react'
+import React, { useContext, useState } from 'react'
 import { NavLink, useNavigate } from 'react-router-dom'
 import { assets } from '../assets/assets';
-import { useContext } from 'react';
 import { AppContext } from '../Context/Appcontext';
 
 
